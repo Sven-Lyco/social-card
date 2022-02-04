@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: rgb(250, 250, 250);
+  height: 100%;
+  padding: 10px;
+}
+
+h1 {
+  margin: 20px;
+}
+
+h2 {
+  text-transform: uppercase;
+  margin: 0;
+  padding-top: 25px;
+}
+
+.card-description {
+  margin: 0px;
+  padding-top: 15px;
+}
+
+.account-name {
+  text-decoration: none;
+  color: rgb(174, 174, 174);
+  margin: 0px;
+  padding-top: 10px;
+}
+
+.social-card {
+  background-color: #fff;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  box-shadow: 0px 0px 5px 5px rgb(244, 244, 244);
+}
+
+.github-image-box {
+  text-decoration: none;
+  background-image: linear-gradient(to bottom, #d4d4e3 0%, #cef1fd 50%);
+
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.twitter-image-box {
+  text-decoration: none;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(190, 225, 245) 0%,
+    rgb(248, 243, 244) 50%
+  );
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.instagram-image-box {
+  text-decoration: none;
+  background-image: radial-gradient(
+    circle at 0% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.logo {
+  padding: 10px;
+}
+
+.arrow-space {
+  margin: 0;
+  padding-top: 15px;
+}
+
+.blue-arrow {
+  color: rgb(0, 172, 238);
+}
