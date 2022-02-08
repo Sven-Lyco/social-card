@@ -1,0 +1,32 @@
+.icon {
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.icon--github {
+  background-image: linear-gradient(to bottom, #d4d4e3 0%, #cef1fd 50%);
+}
+
+.icon--spotify {
+  background-image: linear-gradient(to bottom, #4ea24e 0%, #3c6339 50%);
+}
+
+.icon--instagram {
+  background-image: radial-gradient(
+    circle at 0% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}
+
+.icon--twitter {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(190, 225, 245) 0%,
+    rgb(248, 243, 244) 50%
+  );
+}

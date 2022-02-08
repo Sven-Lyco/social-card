@@ -4,131 +4,202 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- plugin CSS-file --->
-    <link rel="stylesheet" href="./style/style.css" />
-    <!--import font-awesome-->
+
+    <!-- import CSS-file --->
+    <link rel="stylesheet" href="/style.css" />
+    <!-- import font-awesome -->
     <script
       src="https://kit.fontawesome.com/9f9e974ace.js"
       crossorigin="anonymous"
     ></script>
-    <!--title-->
-    <title>Social Card</title>
+    <title>Social Cards</title>
   </head>
+
   <body>
     <main>
-      <!--Light-Theme-->
+      <div>
+        <header>
+          <h1 class="header">Socials</h1>
+        </header>
 
-      <div class="light-background">
-        <header>
-          <h1 class="h1-light">Socials</h1>
-        </header>
-        <!--Github-Card-->
-        <section class="social-card-light">
-          <div class="github-image-box">
-            <div class="logo" style="color: black">
+        <!-- Light-Theme -->
+
+        <!-- Github-Card -->
+        <section class="card">
+          <div class="icon icon--github">
+            <div style="color: black">
               <i class="fab fa-github fa-5x"></i>
             </div>
           </div>
-          <h2 class="h2-light">github</h2>
-          <span class="card-description-light"> See my cool Repos.</span>
-          <span class="account-name.light">@myaccount</span>
-          <div class="arrow-space">
-            <a class="blue-arrow" href="#" aria-label="Link to Github"
+          <h2 class="card__title">github</h2>
+          <span class="card__description"> See my cool Repos!</span>
+          <span class="card__account-name">@Sven-Lyco</span>
+          <div class="card__arrow">
+            <a
+              class="card__arrow card__arrow--blue"
+              href="https://github.com/Sven-Lyco"
+              aria-label="Link to Github"
               ><i class="far fa-arrow-alt-circle-right fa-2x"></i
             ></a>
           </div>
         </section>
-        <!--Twitter-Card-->
-        <section class="social-card-light">
-          <div class="twitter-image-box">
-            <div class="logo" style="color: rgb(0, 172, 238)">
-              <i class="fab fa-twitter fa-5x"></i>
+
+        <!-- Spotify-Card -->
+        <section class="card">
+          <div class="icon icon--spotify">
+            <div style="color: rgb(33, 223, 100)">
+              <i class="fab fa-spotify fa-5x"></i>
             </div>
           </div>
-          <h2 class="h2-light">twitter</h2>
-          <span class="card-description-light">
-            Follow me to learn about my thoughts.</span
+          <h2 class="card__title">spotify</h2>
+          <span class="card__description">
+            follow me and my great playlists!</span
           >
-          <span class="account-name-light">@myaccount</span>
-          <div class="arrow-space">
-            <a class="blue-arrow" href="#" aria-label="Link to Twitter"
+          <span class="card__account-name">@SV3NTAST1C</span>
+          <div class="card__arrow">
+            <a
+              class="card__arrow card__arrow--blue"
+              href="https://open.spotify.com/user/31q5bs2ses7smz2ou5rppcc5okka?si=07d9c24874104620"
+              aria-label="Link to Spotify"
               ><i class="far fa-arrow-alt-circle-right fa-2x"></i
             ></a>
           </div>
         </section>
-        <!--Instagram-Card-->
-        <section class="social-card-light">
-          <div class="instagram-image-box">
-            <div class="logo" style="color: white">
+
+        <!-- Instagram-Card -->
+        <section class="card">
+          <div class="icon icon--instagram">
+            <div style="color: white">
               <i class="fab fa-instagram fa-5x"></i>
             </div>
           </div>
-          <h2 class="h2-light">instagram</h2>
-          <span class="card-description-light"> See my cool Pictures.</span>
-          <span class="account-name-light">@myaccount</span>
-          <div class="arrow-space">
-            <a class="blue-arrow" href="#" aria-label="Link to Instagram"
+          <h2 class="card__title">Instagram</h2>
+          <span class="card__description"
+            >Follow me to see my cool pictures!</span
+          >
+          <span class="card__account-name">@Sveeene</span>
+          <div class="card__arrow">
+            <a
+              class="card__arrow card__arrow--blue"
+              href="https://www.instagram.com/sveeene/"
+              aria-label="Link to Instagram"
+              ><i class="far fa-arrow-alt-circle-right fa-2x"></i
+            ></a>
+          </div>
+        </section>
+
+        <!-- Twitter-Card -->
+        <section class="card">
+          <div class="icon icon--twitter">
+            <div style="color: rgb(0, 172, 238)">
+              <i class="fab fa-twitter fa-5x"></i>
+            </div>
+          </div>
+          <h2 class="card__title">twitter</h2>
+          <span class="card__description"
+            >Follow me to learn about my thoughts!</span
+          >
+          <span class="card__account-name">@Sveeene_</span>
+          <div class="card__arrow">
+            <a
+              class="card__arrow card__arrow--blue"
+              href="https://twitter.com/sveeene_"
+              aria-label="Link to Twitter"
               ><i class="far fa-arrow-alt-circle-right fa-2x"></i
             ></a>
           </div>
         </section>
       </div>
-      <!--Dark-Theme-->
-      <div class="dark-background">
-        <header>
-          <h1 class="h1-dark">Socials</h1>
-        </header>
-        <!--Github-Card-->
-        <section class="social-card-dark">
-          <div class="github-image-box">
-            <div class="logo" style="color: black">
-              <i class="fab fa-github fa-5x"></i>
-            </div>
+
+      <!-- Dark-Theme -->
+
+      <!-- Github-Card-Dark -->
+      <section class="card card--dark">
+        <div class="icon icon--github">
+          <div style="color: black">
+            <i class="fab fa-github fa-5x"></i>
           </div>
-          <h2 class="h2-dark">github</h2>
-          <span class="card-description-dark"> See my cool Repos.</span>
-          <span class="account-name-dark">@myaccount</span>
-          <div class="arrow-space">
-            <a class="blue-arrow" href="#" aria-label="Link to Github"
-              ><i class="far fa-arrow-alt-circle-right fa-2x"></i
-            ></a>
+        </div>
+        <h2 class="card__title card__title--light">github</h2>
+        <span class="card__description card__description--light">
+          See my cool Repos!</span
+        >
+        <span class="card__account-name">@Sven-Lyco</span>
+        <div class="card__arrow">
+          <a
+            class="card__arrow card__arrow--blue"
+            href="https://github.com/Sven-Lyco"
+            aria-label="Link to Github"
+            ><i class="far fa-arrow-alt-circle-right fa-2x"></i
+          ></a>
+        </div>
+      </section>
+
+      <!-- Spotify-Card-Dark -->
+      <section class="card card--dark">
+        <div class="icon icon--spotify">
+          <div style="color: rgb(33, 223, 100)">
+            <i class="fab fa-spotify fa-5x"></i>
           </div>
-        </section>
-        <!--Twitter-Card-->
-        <section class="social-card-dark">
-          <div class="twitter-image-box">
-            <div class="logo" style="color: rgb(0, 172, 238)">
-              <i class="fab fa-twitter fa-5x"></i>
-            </div>
+        </div>
+        <h2 class="card__title card__title--light">spotify</h2>
+        <span class="card__description card__description--light">
+          follow me and my great playlists!</span
+        >
+        <span class="card__account-name">@SV3NTAST1C</span>
+        <div class="card__arrow">
+          <a
+            class="card__arrow card__arrow--blue"
+            href="https://open.spotify.com/user/31q5bs2ses7smz2ou5rppcc5okka?si=07d9c24874104620"
+            aria-label="Link to Spotify"
+            ><i class="far fa-arrow-alt-circle-right fa-2x"></i
+          ></a>
+        </div>
+      </section>
+
+      <!-- Instagram-Card-Dark -->
+      <section class="card card--dark">
+        <div class="icon icon--instagram">
+          <div style="color: white">
+            <i class="fab fa-instagram fa-5x"></i>
           </div>
-          <h2 class="h2-dark">twitter</h2>
-          <span class="card-description-dark">
-            Follow me to learn about my thoughts.</span
-          >
-          <span class="account-name-dark">@myaccount</span>
-          <div class="arrow-space">
-            <a class="blue-arrow" href="#" aria-label="Link to Twitter"
-              ><i class="far fa-arrow-alt-circle-right fa-2x"></i
-            ></a>
+        </div>
+        <h2 class="card__title card__title--light">Instagram</h2>
+        <span class="card__description card__description--light"
+          >Follow me to see my cool pictures!</span
+        >
+        <span class="card__account-name">@Sveeene</span>
+        <div class="card__arrow">
+          <a
+            class="card__arrow card__arrow--blue"
+            href="https://www.instagram.com/sveeene/"
+            aria-label="Link to Instagram"
+            ><i class="far fa-arrow-alt-circle-right fa-2x"></i
+          ></a>
+        </div>
+      </section>
+
+      <!-- Twitter-Card-Dark -->
+      <section class="card card--dark">
+        <div class="icon icon--twitter">
+          <div style="color: rgb(0, 172, 238)">
+            <i class="fab fa-twitter fa-5x"></i>
           </div>
-        </section>
-        <!--Instagram-Card-->
-        <section class="social-card-dark">
-          <div class="instagram-image-box">
-            <div class="logo" style="color: white">
-              <i class="fab fa-instagram fa-5x"></i>
-            </div>
-          </div>
-          <h2 class="h2-dark">instagram</h2>
-          <span class="card-description-dark"> See my cool Pictures.</span>
-          <span class="account-name-dark">@myaccount</span>
-          <div class="arrow-space">
-            <a class="blue-arrow" href="#" aria-label="Link to Instagram"
-              ><i class="far fa-arrow-alt-circle-right fa-2x"></i
-            ></a>
-          </div>
-        </section>
-      </div>
+        </div>
+        <h2 class="card__title card__title--light">twitter</h2>
+        <span class="card__description card__description--light"
+          >Follow me to learn about my thoughts!</span
+        >
+        <span class="card__account-name">@Sveeene_</span>
+        <div class="card__arrow">
+          <a
+            class="card__arrow card__arrow--blue"
+            href="https://twitter.com/sveeene_"
+            aria-label="Link to Twitter"
+            ><i class="far fa-arrow-alt-circle-right fa-2x"></i
+          ></a>
+        </div>
+      </section>
     </main>
   </body>
 </html>

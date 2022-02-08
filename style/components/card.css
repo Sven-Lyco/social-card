@@ -1,0 +1,55 @@
+.card {
+  background-color: #fff;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  box-shadow: 0px 0px 5px 5px rgb(244, 244, 244);
+}
+
+.card--dark {
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0 0 2px white, 0 0 5px rgb(64, 0, 255), 0 0 6px rgb(64, 0, 255),
+    0 0 7px rgb(64, 0, 255), 0 0 8px rgb(64, 0, 255), 0 0 9px rgb(64, 0, 255),
+    0 0 10px rgb(64, 0, 255);
+}
+
+.card__title {
+  text-transform: uppercase;
+  margin: 0;
+  padding-top: 25px;
+  color: black;
+}
+
+.card__title--light {
+  color: white;
+}
+
+.card__description {
+  margin: 0px;
+  padding-top: 15px;
+}
+
+.card__description--light {
+  color: white;
+}
+
+.card__account-name {
+  text-decoration: none;
+  color: rgb(174, 174, 174);
+  margin: 0px;
+  padding-top: 10px;
+}
+
+.card__arrow {
+  margin: 0;
+  padding-top: 15px;
+}
+
+.card__arrow--blue {
+  color: rgb(0, 172, 238);
+}
