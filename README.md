@@ -1,5 +1,5 @@
-## Social-Card Template
+## [Social-Card Template](https://social-card-two.vercel.app/)
 
-This project is based on the [Figma's social card component](https://www.figma.com/file/J0jpHPSSL7DMtfq3M4jJ3x/Personal-Website-Social-Card?node-id=18%3A883)
+The task was to copy the design of [Figma's social card component](https://www.figma.com/file/J0jpHPSSL7DMtfq3M4jJ3x/Personal-Website-Social-Card?node-id=18%3A883) to rebuild independently
 
-Here you can see the Page with [Social Cards](https://social-card-two.vercel.app/)
+The cards are in light and dark design
